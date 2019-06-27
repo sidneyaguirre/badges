@@ -1,15 +1,26 @@
 import React, { Component } from "react";
 
+import "./styles/BadgeNew.css";
+
 import Navbar from "../components/Navbar";
 import Badge from "../components/Badge"
 import BadgeForm from "../components/BadgeForm"
-
-import "./styles/BadgeNew.css";
 import header from "../images/badge-header.svg";
 import Avatar from '../images/cat.svg';
 
 
 class BadgeNew extends Component {
+  state = { form: {} };
+
+  /* manage a change in the page to set the new state */
+  handleChange = e => {
+    const nextForm = this.state.form;
+    nextForm[e.target.name] = e.target.value;
+    this.setState({
+      form: nextForm,
+    });
+  };
+
   render() {
     return (
       <div>
@@ -31,7 +42,7 @@ class BadgeNew extends Component {
                 </div>
 
                 <div className="col-6">
-                    <BadgeForm />
+                    <BadgeForm onChange={this.handleChange} />
                 </div>
             </div>
         </div>
