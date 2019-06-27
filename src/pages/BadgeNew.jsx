@@ -10,7 +10,13 @@ import Avatar from '../images/cat.svg';
 
 
 class BadgeNew extends Component {
-  state = { form: {} };
+  state = { form: {
+    firstName: '',
+    lastName: '',
+    email: '',
+    jobTitle: '',
+    twitter: '',
+  } };
 
   /* manage a change in the page to set the new state */
   handleChange = e => {
@@ -36,16 +42,16 @@ class BadgeNew extends Component {
             <div className="row">
                 <div className="col-6">
                     <Badge 
-                        firstName = "Sidney"
-                        lastName = "Aguirre"
-                        jobTitle = "Software Engineer"
-                        twitter = "sidney_pao"
+                        firstName = {this.state.form.firstName}
+                        lastName = {this.state.form.lastName}
+                        jobTitle = {this.state.form.jobTitle}
+                        twitter = {this.state.form.twitter}
                         avatar = {Avatar}
                     />
                 </div>
 
                 <div className="col-6">
-                    <BadgeForm onChange={this.handleChange} />
+                    <BadgeForm onChange={this.handleChange} formValues={this.state.form} />
                 </div>
             </div>
         </div>
