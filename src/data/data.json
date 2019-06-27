@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "firstName": "Sidney",
+        "lastName": "Aguirre",
+        "jobTitle": "Frontend Engineer",
+        "email": "sidney.aguirrec@gmail.com",
+        "twitter": "sidney_pao",
+        "avatar": "https://avatars0.githubusercontent.com/u/41922364?s=460&v=4"
+    },
+    {
+        "id": "02",
+        "firstName": "Alexander",
+        "lastName": "Galeano",
+        "jobTitle": "Software Engineer",
+        "email": "john.galeanoc@gmail.com",
+        "twitter": "johnagaleano",
+        "avatar": "https://avatars1.githubusercontent.com/u/17520515?s=400&v=4"
+    },
+    {
+        "id": "03",
+        "firstName": "Paola",
+        "lastName": "Ospina",
+        "jobTitle": "Web Designer",
+        "email": "pao.ospin@gmail.com",
+        "twitter": "ospinapao",
+        "avatar": "https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/5033828/600/400/m2/fpnw/wm0/ilo33cqhf1btkzuwhphcbcmwyhycyw5oolp2llxyesvc5qmuz3lxaqf06jdkj3tc-.jpg?1536686971&s=de6dedc526887d964b6f62409c656590"
+    },
+    {
+        "id": "04",
+        "firstName": "Felipe",
+        "lastName": "Gallego",
+        "jobTitle": "Graphic Designer",
+        "email": "felipe1299@gmail.com",
+        "twitter": "pipegallego",
+        "avatar": "https://png.pngtree.com/element_origin_min_pic/17/09/10/19b224c6b100acfc99ed39e10186682d.jpg"
+    }
+]

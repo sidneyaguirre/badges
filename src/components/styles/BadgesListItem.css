@@ -17,3 +17,15 @@
   width: 80px;
   height: 80px;
 }
+
+.BadgesListItem__name{
+  font-weight: bolder;
+}
+
+.BadgesListItem__twitter{
+  color: #5da9dd;
+}
+
+p {
+  margin: 0;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
+import './index.css';
 /* styles */
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
-import BadgeNew from './pages/BadgeNew';
+import App from './components/App';
 
-ReactDOM.render(<BadgeNew />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
