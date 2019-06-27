@@ -14,10 +14,13 @@ class BadgeNew extends Component {
 
   /* manage a change in the page to set the new state */
   handleChange = e => {
-    const nextForm = this.state.form;
-    nextForm[e.target.name] = e.target.value;
     this.setState({
-      form: nextForm,
+      form: {
+        /* we get the previous values in the form*/
+        ...this.state.form,
+        /* and add a new one */
+        [e.target.name]: e.target.value,
+      }
     });
   };
 
